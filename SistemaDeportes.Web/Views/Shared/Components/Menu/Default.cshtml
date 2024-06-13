@@ -1,0 +1,20 @@
+﻿@using SistemaDeportes.Web.Models.ViewModel;
+@model List<VMMenu>;
+
+@{
+    string menucollapse = "menucollapse";
+    int correlativo = 1;
+}
+
+
+@foreach (var menu in Model)
+{
+        <li class="nav-item">
+            <a class="nav-link" href="@($"/{menu.Controlador}/{menu.PaginaAccion}")">
+                <i class="@menu.Icono"></i>
+                <span>@menu.Nombre</span>
+            </a>
+        </li>
+    
+}
+

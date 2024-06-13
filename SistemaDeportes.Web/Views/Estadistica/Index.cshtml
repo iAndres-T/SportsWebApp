@@ -1,0 +1,269 @@
+﻿
+@{
+    ViewData["Title"] = "Estadisticas";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="card shadow mb-4">
+    <div class="card-header py-3 bg-second-primary">
+        <h6 class="m-0 font-weight-bold text-white">Lista de Jugadores</h6>
+    </div>
+    <div class="card-body">
+        <hr />
+        <div class="row">
+            <div class="col-sm-12">
+                <table class="table table-bordered" id="tbdata" cellspacing="0" style="width:100%">
+                    <thead>
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Cédula</th>
+                            <th>Estadísticas</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--  Modal-->
+<div class="modal fade" id="modalData" tabindex="-1" role="dialog" aria-hidden="true" data-backdrop="static">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h6>Detalle Jugador</h6>
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">×</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="form-row">
+                                <div class="form-group col-sm-4">
+                                    <label for="txtNombre">Nombre</label>
+                                    <input type="text" class="form-control form-control-sm input-validar" id="txtNombre" name="Nombre" disabled>
+                                </div>
+                                <div class="form-group col-sm-4" hidden="true">
+                                    <label for="txtDocumento">Documento</label>
+                                    <input type="text" class="form-control form-control-sm" id="txtDocumento" name="Documento" disabled>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-sm-4">
+                                    <label for="txtPartidos">Partidos Jugados</label>
+                                    <input type="number" class="form-control form-control-sm input-validar" id="txtPartidos" name="Partidos">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-sm-4">
+                                    <label for="txtGoles">Goles</label>
+                                    <input type="number" class="form-control form-control-sm input-validar" id="txtGoles" name="Goles">
+                                </div>
+                                <div class="form-group col-sm-4">
+                                    <label for="txtGolesProm">Promedio G/P</label>
+                                    <input type="text" class="form-control form-control-sm" id="txtGolesProm" disabled>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-sm-4">
+                                    <label for="txtAsistencias">Asistencias</label>
+                                    <input type="number" class="form-control form-control-sm input-validar" id="txtAsistencias" name="Asistencias">
+                                </div>
+                                <div class="form-group col-sm-4">
+                                    <label for="txtAsistenciasProm">Promedio A/P</label>
+                                    <input type="text" class="form-control form-control-sm" id="txtAsistenciasProm" disabled>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-sm-4">
+                                    <label for="txtAmarillas">Tarjetas Amarillas</label>
+                                    <input type="number" class="form-control form-control-sm input-validar" id="txtAmarillas" name="Amarillas">
+                                </div>
+                                <div class="form-group col-sm-4">
+                                    <label for="txtAmarillasProm">Promedio TA/P</label>
+                                    <input type="text" class="form-control form-control-sm" id="txtAmarillasProm" disabled>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-sm-4">
+                                    <label for="txtRojas">Tarjetas Rojas</label>
+                                    <input type="number" class="form-control form-control-sm input-validar" id="txtRojas" name="Rojas">
+                                </div>
+                                <div class="form-group col-sm-4">
+                                    <label for="txtRojasProm">Promedio TR/P</label>
+                                    <input type="text" class="form-control form-control-sm" id="txtRojasProm" disabled>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <a href="#" class="btn btn-danger btn-sm" target="_blank" id="btnInforme">Informe</a>
+                <button class="btn btn-success btn-sm" type="button" id="btnDashboard">Dashboard</button>
+                <button class="btn btn-primary btn-sm" type="button" id="btnGuardar">Guardar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal Dashboard -->
+<div class="modal fade" id="modalDataDashboard" tabindex="-1" role="dialog" aria-hidden="true" data-backdrop="static">
+    <div class="modal-dialog" style=" max-width: 95%;" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h6>Dashboard</h6>
+                <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">×</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <div class="row">
+                        <!-- Total de Asistencias -->
+                        <div class="col-xl-3 col-md-3 mb-4">
+                            <div class="card border-left-primary shadow h-100 py-2">
+                                <div class="card-body">
+                                    <div class="row no-gutters align-items-center">
+                                        <div class="col mr-2">
+                                            <div class="text-xs font-weight-bold text-primary text-uppercase mb-1" style="color: #4E73DF !important;">
+                                                Asistencias
+                                            </div>
+                                            <div class="h5 mb-0 font-weight-bold text-gray-800" id="totalAsistencias" style="color: #4E73DF !important;"></div>
+                                        </div>
+                                        <div class="col-auto">
+                                            <i class="fas fa-running fa-2x text-gray-300" style="color: rgba(78, 115, 223, 0.7) !important;"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Total de Goles -->
+                        <div class="col-xl-3 col-md-3 mb-4">
+                            <div class="card border-left-success shadow h-100 py-2">
+                                <div class="card-body">
+                                    <div class="row no-gutters align-items-center">
+                                        <div class="col mr-2">
+                                            <div class="text-xs font-weight-bold text-success text-uppercase mb-1" style="color: #1CC88A !important;">
+                                                Goles
+                                            </div>
+                                            <div class="h5 mb-0 font-weight-bold text-gray-800" id="totalGoles" style="color: #1CC88A !important;"></div>
+                                        </div>
+                                        <div class="col-auto">
+                                            <i class="fas fa-futbol fa-2x text-gray-300" style=" color: rgba(28, 200, 138, 0.7) !important;"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Total de Rojas -->
+                        <div class="col-xl-3 col-md-3 mb-4">
+                            <div class="card border-left-info shadow h-100 py-2" style="border-left-color: #E1301E !important;">
+                                <div class="card-body">
+                                    <div class="row no-gutters align-items-center">
+                                        <div class="col mr-2">
+                                            <div class="text-xs font-weight-bold text-success text-uppercase mb-1" style="color: #E1301E !important;">
+                                                Total de Rojas
+                                            </div>
+                                            <div class="h5 mb-0 font-weight-bold text-gray-800" id="totalRojas" style="color: #E1301E !important;"></div>
+                                        </div>
+                                        <div class="col-auto">
+                                            <i class="fas fa-tablet fa-2x text-gray-300" style="color: rgba(225, 48, 30, 0.7) !important;"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <!-- Total de Amarillas -->
+                        <div class="col-xl-3 col-md-3 mb-4">
+                            <div class="card border-left-warning shadow h-100 py-2" style="border-left-color: #FFDD00 !important;">
+                                <div class="card-body">
+                                    <div class="row no-gutters align-items-center">
+                                        <div class="col mr-2">
+                                            <div class="text-xs font-weight-bold text-warning text-uppercase mb-1" style="color: #FFDD00 !important;">
+                                                Total de Amarillas
+                                            </div>
+                                            <div class="h5 mb-0 font-weight-bold text-gray-800" id="totalAmarillas" style="color: #FFDD00 !important;"></div>
+                                        </div>
+                                        <div class="col-auto">
+                                            <i class="fas fa-tablet fa-2x text-gray-300" style="color: rgba(255, 221, 0, 0.7) !important;"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Content Row -->
+
+                <div class="row">
+
+                    <!-- Area Chart - Últimos 5 partidos -->
+                    <div class="col-xl-8 col-lg-7">
+                        <div class="card shadow mb-4">
+                            <!-- Card Header - Dropdown -->
+                            <div class="card-header py-3 bg-second-primary">
+                                <h6 class="m-0 font-weight-bold text-white" id="barTitle"></h6>
+                            </div>
+                            <!-- Card Body -->
+                            <div class="card-body">
+                                <div class="chart-area" style="height: 350px !important;">
+                                    <div class="chartjs-size-monitor">
+                                        <div class="chartjs-size-monitor-expand">
+                                            <div class=""></div>
+                                        </div>
+                                        <div class="chartjs-size-monitor-shrink">
+                                            <div class=""></div>
+                                        </div>
+                                    </div>
+                                    <canvas id="chartPartidos" width="813" height="437" style="display: block; height: 350px; width: 651px;" class="chartjs-render-monitor"></canvas>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Pie Chart - Productos más vendidos-->
+                    <div class="col-xl-4 col-lg-5">
+                        <div class="card shadow mb-4">
+                            <!-- Card Header - Dropdown -->
+                            <div class="card-header py-3 bg-second-primary">
+                                <h6 class="m-0 font-weight-bold text-white">Estadísticas</h6>
+                            </div>
+                            <!-- Card Body -->
+                            <div class="card-body">
+                                <div class="chart-pie" style="height: 350px !important ;">
+                                    <div class="chartjs-size-monitor">
+                                        <div class="chartjs-size-monitor-expand">
+                                            <div class=""></div>
+                                        </div>
+                                        <div class="chartjs-size-monitor-shrink">
+                                            <div class=""></div>
+                                        </div>
+                                    </div>
+                                    <canvas id="chartGrafico" width="813" height="437" style="display: block; height: 350px; width: 651px;" class="chartjs-render-monitor"></canvas>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="~/js/vistas/Estadistica.js"></script>
+    <script src="~/vendor/chart.js/Chart.min.js"></script>
+}
+

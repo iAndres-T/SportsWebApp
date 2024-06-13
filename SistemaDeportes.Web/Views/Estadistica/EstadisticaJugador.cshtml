@@ -1,0 +1,74 @@
+﻿
+@{
+    ViewData["Title"] = "Estadisticas";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="card shadow mb-4">
+    <div class="card-header py-3 bg-second-primary">
+        <h6 class="m-0 font-weight-bold text-white">Detalle Jugador</h6>
+    </div>
+    <div class="card-body">
+        <div class="row">
+            <div class="col-sm-12">
+                <form>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="form-row">
+                                <div class="form-group col-sm-4">
+                                    <label for="txtPartidos">Partidos Jugados</label>
+                                    <input type="number" class="form-control form-control-sm input-validar" id="txtPartidos" name="Partidos" disabled>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-sm-4">
+                                    <label for="txtGoles">Goles</label>
+                                    <input type="number" class="form-control form-control-sm input-validar" id="txtGoles" name="Goles" disabled>
+                                </div>
+                                <div class="form-group col-sm-4">
+                                    <label for="txtGolesProm">Promedio G/P</label>
+                                    <input type="text" class="form-control form-control-sm" id="txtGolesProm" disabled>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-sm-4">
+                                    <label for="txtAsistencias">Asistencias</label>
+                                    <input type="number" class="form-control form-control-sm input-validar" id="txtAsistencias" name="Asistencias" disabled>
+                                </div>
+                                <div class="form-group col-sm-4">
+                                    <label for="txtAsistenciasProm">Promedio A/P</label>
+                                    <input type="text" class="form-control form-control-sm" id="txtAsistenciasProm" disabled>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-sm-4">
+                                    <label for="txtAmarillas">Tarjetas Amarillas</label>
+                                    <input type="number" class="form-control form-control-sm input-validar" id="txtAmarillas" name="Amarillas" disabled>
+                                </div>
+                                <div class="form-group col-sm-4">
+                                    <label for="txtAmarillasProm">Promedio TA/P</label>
+                                    <input type="text" class="form-control form-control-sm" id="txtAmarillasProm" disabled>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-sm-4">
+                                    <label for="txtRojas">Tarjetas Rojas</label>
+                                    <input type="number" class="form-control form-control-sm input-validar" id="txtRojas" name="Rojas" disabled>
+                                </div>
+                                <div class="form-group col-sm-4">
+                                    <label for="txtRojasProm">Promedio TR/P</label>
+                                    <input type="text" class="form-control form-control-sm" id="txtRojasProm" disabled>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="~/js/vistas/Estadistica-Jugador.js"></script>
+}
+
