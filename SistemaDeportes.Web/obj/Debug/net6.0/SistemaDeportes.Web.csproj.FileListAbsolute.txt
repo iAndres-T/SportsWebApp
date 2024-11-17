@@ -258,3 +258,4 @@ C:\Users\USUARIO\Documents\VS Code Workspace\Workspace Backend\SistemaDeportes\S
 C:\Users\USUARIO\Documents\VS Code Workspace\Workspace Backend\SistemaDeportes\SistemaDeportes.Web\bin\Debug\net6.0\Utilidades\LibreriaPDF\libwkhtmltox.dylib
 C:\Users\USUARIO\Documents\VS Code Workspace\Workspace Backend\SistemaDeportes\SistemaDeportes.Web\bin\Debug\net6.0\Utilidades\LibreriaPDF\libwkhtmltox.so
 C:\Users\USUARIO\Documents\VS Code Workspace\Workspace Backend\SistemaDeportes\SistemaDeportes.Web\bin\Debug\net6.0\DinkToPdf.dll
+C:\Users\USUARIO\Documents\VS Code Workspace\Workspace Backend\SistemaDeportes\SistemaDeportes.Web\obj\Debug\net6.0\SistemaDeportes.Web.sourcelink.json

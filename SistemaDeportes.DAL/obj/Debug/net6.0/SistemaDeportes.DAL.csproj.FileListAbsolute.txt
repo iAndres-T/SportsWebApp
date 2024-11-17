@@ -13,3 +13,4 @@ C:\Users\USUARIO\Documents\VS Code Workspace\Workspace Backend\SistemaDeportes\S
 C:\Users\USUARIO\Documents\VS Code Workspace\Workspace Backend\SistemaDeportes\SistemaDeportes.DAL\bin\Debug\net6.0\SistemaDeportes.Entity.pdb
 C:\Users\USUARIO\Documents\VS Code Workspace\Workspace Backend\SistemaDeportes\SistemaDeportes.DAL\obj\Debug\net6.0\SistemaDeportes.DAL.csproj.AssemblyReference.cache
 C:\Users\USUARIO\Documents\VS Code Workspace\Workspace Backend\SistemaDeportes\SistemaDeportes.DAL\obj\Debug\net6.0\SistemaD.E18B4BFF.Up2Date
+C:\Users\USUARIO\Documents\VS Code Workspace\Workspace Backend\SistemaDeportes\SistemaDeportes.DAL\obj\Debug\net6.0\SistemaDeportes.DAL.sourcelink.json

@@ -1,0 +1,6 @@
+projectKey=AndresTabaresCardona
+serverUrl=http://localhost:9000
+serverVersion=10.7.0.96327
+dashboardUrl=http://localhost:9000/dashboard?id=AndresTabaresCardona
+ceTaskId=ddae431d-36d1-4ea1-8b1b-6b5d077760fc
+ceTaskUrl=http://localhost:9000/api/ce/task?id=ddae431d-36d1-4ea1-8b1b-6b5d077760fc

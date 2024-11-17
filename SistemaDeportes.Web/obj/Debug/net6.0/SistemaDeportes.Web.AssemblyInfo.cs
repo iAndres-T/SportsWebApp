@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SistemaDeportes.Web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ba0ea9bd9cf52a732af7e8e5b618cb99304302b1")]
 [assembly: System.Reflection.AssemblyProductAttribute("SistemaDeportes.Web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SistemaDeportes.Web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

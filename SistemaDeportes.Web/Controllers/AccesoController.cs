@@ -32,6 +32,11 @@ namespace SistemaDeportes.Web.Controllers
         [HttpPost]
         public async Task<IActionResult> Login(VMUsuarioLogin modelo)
         {
+            if (!ModelState.IsValid)
+            {
+                return View(modelo);
+            }   
+
             Usuario encontrado = await _usuarioService.ObtenerPorCredenciales(modelo.Documento, modelo.Clave);
 
             if (encontrado == null)

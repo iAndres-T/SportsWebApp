@@ -463,7 +463,10 @@
           "SistemaDeportes.Entity": "1.0.0"
         },
         "runtime": {
-          "SistemaDeportes.BLL.dll": {}
+          "SistemaDeportes.BLL.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "SistemaDeportes.DAL/1.0.0": {
@@ -471,7 +474,10 @@
           "SistemaDeportes.Entity": "1.0.0"
         },
         "runtime": {
-          "SistemaDeportes.DAL.dll": {}
+          "SistemaDeportes.DAL.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "SistemaDeportes.Entity/1.0.0": {
@@ -479,7 +485,10 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.8"
         },
         "runtime": {
-          "SistemaDeportes.Entity.dll": {}
+          "SistemaDeportes.Entity.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

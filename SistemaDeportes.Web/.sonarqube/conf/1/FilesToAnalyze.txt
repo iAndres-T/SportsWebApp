@@ -1,0 +1,3 @@
+﻿C:\Users\USUARIO\Documents\VS Code Workspace\Workspace Backend\SistemaDeportes\SistemaDeportes.DAL\DBContext\dbdeportesContext.cs
+C:\Users\USUARIO\Documents\VS Code Workspace\Workspace Backend\SistemaDeportes\SistemaDeportes.DAL\Implementacion\GenericRepository.cs
+C:\Users\USUARIO\Documents\VS Code Workspace\Workspace Backend\SistemaDeportes\SistemaDeportes.DAL\Interfaces\IGenericRepository.cs

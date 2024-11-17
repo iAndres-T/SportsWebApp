@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\USUARIO\\Documents\\VS Code Workspace\\Workspace Backend\\SistemaDeportes\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{30EDC9A5-1666-4F4C-B022-47FCC06365A7}|SistemaDeportes.Web\\SistemaDeportes.Web.csproj|c:\\users\\usuario\\documents\\vs code workspace\\workspace backend\\sistemadeportes\\sistemadeportes.web\\controllers\\accesocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30EDC9A5-1666-4F4C-B022-47FCC06365A7}|SistemaDeportes.Web\\SistemaDeportes.Web.csproj|solutionrelative:sistemadeportes.web\\controllers\\accesocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30EDC9A5-1666-4F4C-B022-47FCC06365A7}|SistemaDeportes.Web\\SistemaDeportes.Web.csproj|c:\\users\\usuario\\documents\\vs code workspace\\workspace backend\\sistemadeportes\\sistemadeportes.web\\models\\viewmodel\\vmusuariologin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30EDC9A5-1666-4F4C-B022-47FCC06365A7}|SistemaDeportes.Web\\SistemaDeportes.Web.csproj|solutionrelative:sistemadeportes.web\\models\\viewmodel\\vmusuariologin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{30EDC9A5-1666-4F4C-B022-47FCC06365A7}|SistemaDeportes.Web\\SistemaDeportes.Web.csproj|c:\\users\\usuario\\documents\\vs code workspace\\workspace backend\\sistemadeportes\\sistemadeportes.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{30EDC9A5-1666-4F4C-B022-47FCC06365A7}|SistemaDeportes.Web\\SistemaDeportes.Web.csproj|solutionrelative:sistemadeportes.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -14,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -25,14 +33,44 @@
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "VMUsuarioLogin.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\VS Code Workspace\\Workspace Backend\\SistemaDeportes\\SistemaDeportes.Web\\Models\\ViewModel\\VMUsuarioLogin.cs",
+              "RelativeDocumentMoniker": "SistemaDeportes.Web\\Models\\ViewModel\\VMUsuarioLogin.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\VS Code Workspace\\Workspace Backend\\SistemaDeportes\\SistemaDeportes.Web\\Models\\ViewModel\\VMUsuarioLogin.cs",
+              "RelativeToolTip": "SistemaDeportes.Web\\Models\\ViewModel\\VMUsuarioLogin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T22:56:46.245Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "AccesoController.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\VS Code Workspace\\Workspace Backend\\SistemaDeportes\\SistemaDeportes.Web\\Controllers\\AccesoController.cs",
+              "RelativeDocumentMoniker": "SistemaDeportes.Web\\Controllers\\AccesoController.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\Documents\\VS Code Workspace\\Workspace Backend\\SistemaDeportes\\SistemaDeportes.Web\\Controllers\\AccesoController.cs",
+              "RelativeToolTip": "SistemaDeportes.Web\\Controllers\\AccesoController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwDkAAAB0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T22:52:34.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\USUARIO\\Documents\\VS Code Workspace\\Workspace Backend\\SistemaDeportes\\SistemaDeportes.Web\\Program.cs",
               "RelativeDocumentMoniker": "SistemaDeportes.Web\\Program.cs",
               "ToolTip": "C:\\Users\\USUARIO\\Documents\\VS Code Workspace\\Workspace Backend\\SistemaDeportes\\SistemaDeportes.Web\\Program.cs",
               "RelativeToolTip": "SistemaDeportes.Web\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAABzAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-29T16:04:56.505Z",
               "EditorCaption": ""

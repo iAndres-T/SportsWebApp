@@ -1,0 +1,1 @@
+C:\Users\USUARIO\Documents\VS Code Workspace\Workspace Backend\SistemaDeportes\SistemaDeportes.Web\.sonarqube\out\2
