@@ -45,6 +45,12 @@ namespace SistemaDeportes.Web.Controllers
                 return View();
             }
 
+            if(!encontrado.Estado)
+            {
+                ViewData["Mensaje"] = "El usuario está desactivado";
+                return View();
+            }
+
             ViewData["Mensaje"] = null;
 
             List<Claim> claims = new List<Claim>()

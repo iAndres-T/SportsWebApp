@@ -17,6 +17,7 @@
     <ProjectReference Include="..\SistemaDeportes.BLL\SistemaDeportes.BLL.csproj" />
     <ProjectReference Include="..\SistemaDeportes.Entity\SistemaDeportes.Entity.csproj" />
     <ProjectReference Include="..\SistemaDeportes.IOC\SistemaDeportes.IOC.csproj" />
+    <ProjectReference Include="..\SistemaDeportes.test\SistemaDeportes.test.csproj" />
   </ItemGroup>
 
   <ItemGroup>

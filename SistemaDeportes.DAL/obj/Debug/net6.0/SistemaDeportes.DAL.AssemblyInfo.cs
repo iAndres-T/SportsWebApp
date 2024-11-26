@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SistemaDeportes.DAL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ba0ea9bd9cf52a732af7e8e5b618cb99304302b1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+55cc2c83359e58596ad876b79c2422a7aa1950d7")]
 [assembly: System.Reflection.AssemblyProductAttribute("SistemaDeportes.DAL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SistemaDeportes.DAL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -2,7 +2,7 @@
   "Files": [
     {
       "Id": "C:\\Users\\USUARIO\\Documents\\VS Code Workspace\\Workspace Backend\\SistemaDeportes\\SistemaDeportes.Web\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\SistemaDeportes.Web.bundle.scp.css",
-      "PackagePath": "staticwebassets\\SistemaDeportes.Web.bundle.scp.css"
+      "PackagePath": "staticwebassets\\SistemaDeportes.Web.dntppmrlcm.bundle.scp.css"
     },
     {
       "Id": "C:\\Users\\USUARIO\\Documents\\VS Code Workspace\\Workspace Backend\\SistemaDeportes\\SistemaDeportes.Web\\wwwroot\\css\\sb-admin-2.css",
@@ -7551,6 +7551,10 @@
     {
       "Id": "C:\\Users\\USUARIO\\Documents\\VS Code Workspace\\Workspace Backend\\SistemaDeportes\\SistemaDeportes.Web\\wwwroot\\vendor\\toastr\\toastr.min.js",
       "PackagePath": "staticwebassets\\vendor\\toastr\\toastr.min.js"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.SistemaDeportes.Web.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.SistemaDeportes.Web.Microsoft.AspNetCore.StaticWebAssets.props",
